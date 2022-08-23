@@ -1,0 +1,259 @@
+
+.nav li{
+    margin: 25px;
+    transition:ease-out 1s;
+    
+}
+
+.nav li:hover{
+
+    background-color: gray; 
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.image1 img{
+    border-radius: 20px;
+
+
+}
+
+/* calculation */
+
+/* middle */
+
+.box{
+    border: 1px solid lightcyan;
+    border-radius: 25px;
+    height: 250px;
+    width: 250px;
+}
+
+.background{
+    background-image: url(https://img.freepik.com/premium-vector/world-map-silhouette-digital-simple-grey-map-flat-style-vector-realistic-illustration-earth-isolated-white-background_176516-1332.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#this{
+    height: 12px;
+
+}
+
+.newbg{
+    background-color: gray;
+    margin-top: 15px;
+}
+
+/* middle heart icon */
+
+.iconclass{
+    float: right;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-right: 10px; 
+    color: lightpink;
+    text-align: center;
+    
+}
+
+.border1 i{
+    border: 1px solid lightblue;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px;
+
+}
+
+
+
+/* CSS start from here */
+
+
+/* navbar */
+
+.heading{
+    font-family: Mouse Memoirs;
+    font-size: xxx-large;
+}
+
+.para1{
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: x-large;
+}
+
+.button1{
+    border: none;
+}
+
+.button1 a{
+    border: none;
+    font-weight: bold;
+}
+
+.button1:hover{
+    background-color: lightblue;
+    transition: 1s;
+}
+
+
+/* middle */
+
+.leftletter{
+    margin-top: 100px;
+    
+}
+
+.letter1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+} 
+
+.letter2{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.letter3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+
+.box2{
+ border-radius: 25px;
+ box-shadow: 10px 15px lightcyan;
+ 
+}
+
+.line1{
+    text-align: justify;
+}
+
+
+/* middle5 */
+
+.letter4{
+    font-family: cursive;
+}
+
+.letter5{
+    border: 1px solid lightblue;
+}
+
+.newbutton input{
+    border: 1px solid lightblue;
+}
+
+.newbutton textarea{
+    border: 1px solid lightblue;
+}
+
+.newbutton button{
+    border: 1px solid lightblue;
+
+}
+
+.onmousee{
+    background-color: lightblue;
+    border: 1px solid lightcyan;
+    margin-top: -15px;
+    transition: 1s;
+    border-radius: 25px;
+    height: 250px;
+    width: 250px;
+    
+    
+}
+
+.outmouse{
+    background-color: transparent;
+    border: 1px solid lightcyan;
+    border-radius: 25px;
+    height: 250px;
+    width: 250px;
+    
+}
+
+
+.hvr:hover{
+    background-color: lightblue;
+    transition: 1s;
+}
+
+.cart:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .nav li{
+        margin: 25px;
+        transition:ease-out 1s;
+        text-align: center;
+        
+    }
+
+
+    .btn1 {
+        text-align: center;
+        
+    }
+
+    .btn1 a{
+        border: 1px solid lightblue;
+    }
+
+    .heading{
+        text-align: left;
+    }
+
+    .para1{
+        text-align: left;
+    }
+
+    .background, .letter3{
+        text-align: center;
+    }
+
+    .para1{
+        text-align: center;
+    }
+
+    .para2{
+        text-align: right;
+    }
+
+    .para3{
+        text-align: left;
+    }
+
+    #this{
+        height: 10px;
+    }
+
+    .centr{
+        margin-top: 40px;
+    
+    }
+
+    .pding{
+
+        padding: 15px;
+
+    }
+
+  
+  }
+
+
